@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Website</title>
+        <style>
+            
+            body{
+                margin: 0;
+                background: aliceblue;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding: 0;
+                
+            }
+            header{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 40px;
+                font-weight: bold;
+                color: hotpink;
+                text-decoration: underline;
+            }
+            section h1{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+                font-weight: bold;  
+            }
+            section{
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 10px;
+                background: rgb(216, 144, 211);
+                border-radius: 10px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            }
+            img{
+                width: 200px;
+                height: 200px;
+                border: 2px solid red;
+            }
+            p{
+                font-size: 22px;
+
+            }
+            ul{
+                list-style-position: inside;
+                text-align: left;
+                display: inline-block;
+                
+            }
+            article{
+                
+                
+                border: 1px solid #ddd;
+                background: hotpink;
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                border-radius: 10px;
+                width: 320px;
+            }
+            .projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 15px;
+            }
+            table, th, td{
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            th{
+                background: wheat;
+            }
+            tr:nth-child(even){
+                background-color: white;
+            }
+            footer{
+                padding: 30px;
+                margin-top: 5px;
+                background-color: rgb(55, 241, 241);
+                text-align: center;
+                font-weight: bold;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>My Personal Website</header>
+        <section>
+            <h1>About Me</h1>
+            <img src=""  alt="photo">
+            <p><b>Name:</b><i>Reeti Chopra</i></p>
+            <p><b>Profession:</b><u>Web Developer</u></p>
+            <p>Hi everyone i m Reeti<b> Web Developer</b> and i like creating websites.</p>
+            
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li>UI/UX</li>
+                <li>Digital Painting</li>
+                <li>Coding</li>
+                <li>Making models</li>
+                <li>Teaching</li>
+            </ul>
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <article>
+                <img src="" alt="project">
+                <h3>PCOD WEBSITE</h3>
+                <p>Made in html, css, js</p>
+            </article>
+            <article>
+                <img src="" alt="project">
+                <h3>PCOD WEBSITE</h3>
+                <p>Made in html, css, js</p>
+            </article>
+        </div>
+            <h2>My Skills</h2>
+            <table>
+                <tr>
+                    <th>Technology</th>
+                    <th>Experience Level</th>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Expert</td>
+                </tr>
+            </table>
+            <h2>Contact Me</h2>
+            <p>Email Address<a href="mailto:reeti3909@gmail.com"> reeti3909@gmail.com</a></p>
+            <p>Portfolio<a href="https://github.com/reeti09"> Github profile</a></p>
+            <p>Profile<a href="https://linkedin.com/reeti09"> Linkedin profile</a></p>
+
+        </section>
+        <footer>Made by ree</footer>
+    </body>
+</html>
